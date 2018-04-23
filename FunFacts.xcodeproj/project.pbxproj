@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A614CBC6208D65DD0037C0B4 /* BackgroundColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A614CBC5208D65DD0037C0B4 /* BackgroundColorProvider.swift */; };
+		A6846A702088530300F8D63D /* FactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6846A6F2088530300F8D63D /* FactProvider.swift */; };
 		A686EED92082D50C00F4E73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686EED82082D50C00F4E73E /* AppDelegate.swift */; };
 		A686EEDB2082D50D00F4E73E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A686EEDA2082D50D00F4E73E /* ViewController.swift */; };
 		A686EEDE2082D50D00F4E73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A686EEDC2082D50D00F4E73E /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A614CBC5208D65DD0037C0B4 /* BackgroundColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorProvider.swift; sourceTree = "<group>"; };
+		A6846A6F2088530300F8D63D /* FactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactProvider.swift; sourceTree = "<group>"; };
 		A686EED52082D50C00F4E73E /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A686EED82082D50C00F4E73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A686EEDA2082D50D00F4E73E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		A686EED72082D50C00F4E73E /* FunFacts */ = {
 			isa = PBXGroup;
 			children = (
+				A614CBC5208D65DD0037C0B4 /* BackgroundColorProvider.swift */,
+				A6846A6F2088530300F8D63D /* FactProvider.swift */,
 				A686EED82082D50C00F4E73E /* AppDelegate.swift */,
 				A686EEDA2082D50D00F4E73E /* ViewController.swift */,
 				A686EEDC2082D50D00F4E73E /* Main.storyboard */,
@@ -261,6 +267,8 @@
 			files = (
 				A686EEDB2082D50D00F4E73E /* ViewController.swift in Sources */,
 				A686EED92082D50C00F4E73E /* AppDelegate.swift in Sources */,
+				A614CBC6208D65DD0037C0B4 /* BackgroundColorProvider.swift in Sources */,
+				A6846A702088530300F8D63D /* FactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +440,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.curtisstilwell.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -446,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.curtisstilwell.FunFacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
